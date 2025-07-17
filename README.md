@@ -1,8 +1,15 @@
 # 🧩 Python KMS Server Emulator
 
-Un **emulador de servidor KMS** completamente funcional escrito en Python, compatible con una amplia gama de sistemas operativos Windows y versiones de Microsoft Office (licencias por volumen). Este proyecto permite activar clientes compatibles en una red local (LAN), sin necesidad de conexión a servidores KMS públicos.
+Un **mod de [py-kms](https://github.com/SystemRage/py-kms)** — un emulador de servidor KMS (Key Management Service) escrito en Python. Esta versión ha sido adaptada y extendida para soportar productos más recientes y facilitar su uso en entornos modernos.
 
-[![Based](https://img.shields.io/badge/Based-Repo-green)](https://github.com/SystemRage/py-kms)
+Este emulador permite la activación de productos Microsoft compatibles mediante KMS en una red local, sin necesidad de servidores externos.
+
+---
+
+## 🛠 Basado en
+
+👉 **Proyecto original:** [SystemRage/py-kms](https://github.com/SystemRage/py-kms)  
+👉 Esta es una **versión modificada** con soporte adicional y ajustes para compatibilidad con versiones más recientes de Windows y Office.
 
 ---
 
