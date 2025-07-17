@@ -55,3 +55,11 @@ Este emulador soporta la activación de los siguientes productos de Microsoft:
 - Office 2024
 
 ---
+
+## 🚀 Instalación
+
+### Requisitos
+
+- Docker  
+- Acceso a la red (puerto 1688 TCP libre)  
+- Sistema Linux, Windows o macOS  
