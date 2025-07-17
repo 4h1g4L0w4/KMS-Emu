@@ -9,9 +9,14 @@ Un **emulador de servidor KMS** completamente funcional escrito en Python, compa
 ## 🎯 Características
 
 ✅ 100% funcional como servidor KMS local  
+
 ✅ Soporte para múltiples versiones de Windows y Office
+
 ✅ Compatible con entornos Windows físicos y virtuales  
+
 ✅ Registro simple en consola para auditoría y depuración  
+
+✅ Imagen Docker para facil implementacion
 
 ---
 
