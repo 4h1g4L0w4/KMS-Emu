@@ -62,4 +62,22 @@ Este emulador soporta la activación de los siguientes productos de Microsoft:
 
 - Docker  
 - Acceso a la red (puerto 1688 TCP libre)  
-- Sistema Linux, Windows o macOS  
+- Sistema Linux, Windows o macOS
+
+**Despliegue:**
+```Dockerfile
+sudo docker run -d --name kms-emu \
+    -t \
+    -p 8080:8080 \
+    -p 1688:1688 \
+    -e IP=0.0.0.0 \
+    -e PORT=1688 \
+    -e SQLITE=true \
+    -e HWID=RANDOM \
+    -e LOGLEVEL=INFO \
+    -e LOGFILE=/var/log/pykms_logserver.log \
+    -e LOGSIZE=2 \
+    -v /etc/localtime:/etc/localtime:ro \
+    -v /var/log:/var/log:rw \
+    --restart unless-stopped ghcr.io/4h1g4l0w4/kms-emu:v1
+```
